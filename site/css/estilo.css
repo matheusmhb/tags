@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* font-family: "Bebas Neue", sans-serif; */
+    background:#04b1eb ;
+    
+   
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: #f85c40;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+  
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+    text-shadow: 2px 2px #00BFFF ;
+    /* border: 2px solid black;  */
+}
+
+.logo h1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    color: #180F4A;
+    
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px 15px;
+    color: #180F4A;
+    
+}
+
+.menu a:hover{
+    color: white;
+    border-bottom: 5px solid black;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background: #00BFFF;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* border: 2px solid black;  */
+    
+}
+
+.headline{
+    margin-top: 5%;
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 2px solid black; */
+
+}
+
+.headline h2{
+   
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+
+}
+
+.img-headline{
+    margin-top: 5%;
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 2px solid red; */
+    text-align: center; 
+}
+
+.img-headline:hover{
+    opacity: 0.9;
+}
+
+section{
+    display: inline-block;
+    margin-top: 30px ;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-flow: row wrap;
+    /* border: 2px solid white;  */
+    text-align: center;
+    padding: 3%;
+    background: #00BFFF;
+    
+}
+
+section h2{
+    width: 100%;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+    color: #180f4a;
+
+
+}
+
+.servico{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+
+
+.card{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    border: 3px solid #180F4A;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #f85c40;
+    color: #180F4A;
+    font-size: 15px;
+    /* font-family: "Archivo Black", sans-serif; */
+  
+}
+
+
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background-image: linear-gradient(180deg, #04b1eb,#015c7a,#01384b );
+    text-align: center;
+    border-top: solid #01384b ;
+}
+
+.rodape{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    color: #180F4A;
+
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<link rel="stylesheet" href="../site/css/formulario.css">
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <h1>Formularios</h1>
+    </div>    
+ </nav>
+
+ <header class="header">
+    <div class="headline">
+        <h2>O que é um formulário HTML?</h2>
+            <p>O formulário HTML é um formulário de preenchimento de dados ou que resulta em uma ação desejada utilizando a linguagem de marcação HTML. É formado por um ou mais widgets. Esses widgets são campos de textos, caixas de seleção, botões, radio buttons e checkboxes utilizando ferramentas do próprio HTML. Dessa forma, o usuário pode interagir com a página ao executar ações através desses formulários.</p>
+        <h3>Como inserir um formulário HTML</h3>
+            <p>O formulário HTML é representado pela tag de abertura <strong>&lt;form&gt;</strong> e a de fechamento <strong>&lt;/form&gt;</strong>. Dentro dessas tags, serão colocados todos os elementos que compõem este formulário.</p>
+            <p></p>
+    </div>
+
+ </header>
+ <section>
+    <h3>Elemento <strong>&lt;input&gt;</strong></h3>
+        <p><strong>&lt;input&gt;</strong>O elemento HTML é o elemento de formulário mais utilizado.</p>
+        <p>Um <strong>&lt;input&gt;</strong>elemento pode ser exibido de diversas maneiras, dependendo do type atributo.</p>
+   
+    <h3>Campos de texto</h3>
+        <p>Define <strong>&lt;input&gt; type="text"</strong>um campo de entrada de texto de linha única.</p>
+
+    <h4>Exemplo</h4>   
+        <p>Um formulário com campos de entrada de texto: </p>
+    <form>
+        <label for="campo_nome"><b>Nome</b></label>
+<input id="campo_nome"type="text" placeholder="Nome completo"required>
+<br><br>
+
+       <label for="campo_email"><b>Email</b></label>
+<input id="campo_email"type="email" placeholder="Digite seu email"required>
+<br><br>
+
+       <label for="campo_senha"><b>Senha</b></label>
+<input id="campo_senha"type="password" placeholder="Digite sua senha" required>
+<br><br>
+
+
+    <h3>Botões de rádio</h3>
+        <p>O símbolo <strong>&lt;input&gt; type="radio"</strong> define um botão de opção.</p>
+        <p>Os botões de opção permitem que o usuário selecione UMA dentre um número limitado de opções.</p>
+    
+    <h4>Exemplo</h4>   
+        <p>Um formulário com botões de opção: </p>
+<h3>Animal de estimação</h3>
+<input type="radio" id="dog" name="animal" value="Cachorro">
+<label for="dog">Cachorro</label>
+<br><br>
+
+<input type="radio" id="cat" name="animal" value="Gato">
+<label for="car">Gato</label>
+<br><br>
+<hr>
+
+ <h3>caixas de seleção</h3>
+        <p>O símbolo <strong>&lt;input&gt; type="checkbox"</strong> define uma caixa de seleção </p>
+        <p>As caixas de seleção permitem que o usuário selecione ZERO ou MAIS opções dentre um número limitado de escolhas.</p>
+    
+    <h4>Exemplo</h4>   
+        <p>Um formulário com caixas de seleção: </p>
+<h4>O que você tem em casa?</h4>
+<input id="item1" type="checkbox" name="item1" value="TV">
+<label for="item1">Tv</label>
+<br><br>
+
+<input id="item2" type="checkbox" name="item2" value="Geladeira">
+<label for="item2">Geladeira</label>
+<br><br>
+
+
+
+<!-- <h3>Escolhe uma cor:</h3>
+<select>
+<option selected disabled value="">Selecione uma cor</option>
+<option value="vermelho">Vermelho</option>
+<option value="Azul">Azul</option>
+<option value="Amarelho">amarelo</option>
+<option value="Verde">Verde</option>
+</select>
+<br><br><hr> -->
+
+
+<h3>O botão Enviar</h3>
+        <p>O símbolo <strong>&lt;input&gt; type="submit"</strong> um botão para enviar os dados do formulário a um manipulador de formulário.</p>
+    
+    <h4>Exemplo</h4>   
+        <p>Um formulário com um botão de envio: </p>
+
+<input type="submit" value="Eviar Formulário">
+    </form>
+
+</section>
+<br><br><br>
+
+     <a class="botao" href="../index03.html">Voltar principal</a>
+
+<footer>
+	<H1 class="rodape">Aprendendo HTML</H1>
+	<p style="color:#180F4A; ">Um site feito com HTML e CSS puro</p>
+	<b style="color: #180F4A;">©Todos direito reservados</b>
+</footer>    
+   
+</body>
+</html>
